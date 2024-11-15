@@ -1,0 +1,59 @@
+/* Fondo general de la página */
+body {
+    background-color: #ffe6f2; /* Rosa muy claro para toda la página */
+}
+
+/* Fondo del contenedor principal */
+.fondo {
+    background-color: #ffccd5; /* Rosa más notorio */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Añadir un poco de relleno para mejorar la apariencia */
+}
+
+/* Título del formulario */
+h3 {
+    color: #d47a94; /* Rosa oscuro */
+    font-weight: bold;
+}
+
+/* Estilo para el botón de iniciar sesión */
+#btn_iniciar {
+    background-color: #ff8fab; /* Rosa pastel fuerte */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#btn_iniciar:hover {
+    background-color: #ff6f91; /* Rosa más oscuro */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+}
+
+/* Estilo para el botón de registro */
+a.btn-danger {
+    background-color: #ff6f91; /* Rosa fuerte */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+a.btn-danger:hover {
+    background-color: #ff4a73; /* Rosa oscuro */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+}
+
+/* Ajustes adicionales para el formulario */
+.form-control {
+    border: 1px solid #ff8fab; /* Borde rosa */
+    border-radius: 10px;
+}
+
+.form-floating label {
+    color: #d47a94;
+    font-weight: 500;
+}

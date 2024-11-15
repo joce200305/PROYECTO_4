@@ -1,0 +1,84 @@
+/* Fondo general de la página */
+body {
+    background-color: #ffe6f2; /* Rosa claro */
+}
+
+/* Estilo del contenedor principal */
+.bg-card {
+    background-color: #ffccd5; /* Fondo de tarjeta rosado */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #4a4a4a;
+}
+
+/* Encabezado de las tablas */
+.table th {
+    background-color: #ff8fab; /* Fondo rosado para encabezados */
+    color: #fff;
+}
+
+/* Estilo de botones */
+.btn-primary {
+    background-color: #ff8fab; /* Rosa pastel */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #ff6f91; /* Rosa más oscuro */
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background-color: #ff6f91; /* Rosa fuerte */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-danger:hover {
+    background-color: #ff4a73; /* Rosa aún más oscuro */
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background-color: #ffb3c6; /* Rosa claro */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #ff8fab;
+}
+
+/* Estilo de los modales */
+.modal-content {
+    background-color: #ffe6f2;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+/* Estilo de los campos de formulario */
+.form-floating .form-control {
+    border: 1px solid #ff8fab;
+    border-radius: 10px;
+}
+
+.form-floating label {
+    color: #d47a94; /* Color de texto en etiquetas */
+    font-weight: 500;
+}

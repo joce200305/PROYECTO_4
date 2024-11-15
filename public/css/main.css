@@ -1,0 +1,24 @@
+
+body{
+    background: url("../img/inve.png") fixed no-repeat 0 0;
+	background-size: cover;
+	background-position: center center;
+    color: #fff;
+}
+
+.fondo{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    border: 2px #007286 solid;
+}
+
+btn-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg-card{
+    background-color: rgb(0, 0, 0,0.7);
+    border-radius: 10px;
+    border: 2px #007286 solid;
+}

@@ -1,0 +1,65 @@
+/* Fondo general para la página */
+body {
+    background-color: #ffe4e9; /* Fondo rosado claro */
+    font-family: 'Poppins', sans-serif; /* Tipografía moderna y elegante */
+}
+
+/* Contenedor principal del formulario */
+.container .fondo {
+    background-color: #ffdee2; /* Fondo rosado suave para el formulario */
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    color: #333;
+}
+
+/* Título del formulario */
+.container h3 {
+    color: #ff5a76; /* Color rosado intenso */
+    font-weight: bold;
+}
+
+/* Imagen de usuario redondeada */
+.container img {
+    border: 3px solid #ff5a76;
+}
+
+/* Inputs flotantes */
+.form-floating .form-control {
+    background-color: #ffeef1;
+    border: 1px solid #ff5a76;
+    color: #333;
+}
+
+.form-floating .form-control:focus {
+    border-color: #ff5a76;
+    box-shadow: 0px 0px 5px rgba(255, 90, 118, 0.5);
+}
+
+/* Etiquetas */
+.form-floating label {
+    color: #ff5a76;
+    font-weight: bold;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #ff5a76;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #ff4062;
+}
+
+.btn-danger {
+    background-color: #ffc1c8;
+    border: none;
+    color: #ff5a76;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #ffb1b9;
+}

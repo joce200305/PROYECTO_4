@@ -1,0 +1,68 @@
+  /* Fondo de degradado suave para la barra de navegación */
+  .navbar {
+    background: linear-gradient(90deg, #f7c1d9, #d1c8e0); /* Degradado rosa pastel a lavanda */
+    border-radius: 8px;
+    padding: 10px 20px;
+  }
+
+  /* Logo de la marca */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3b2a50; /* Lavanda oscuro */
+  }
+
+  /* Botón del menú móvil */
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+
+  /* Icono del botón de menú móvil */
+  .navbar-toggler-icon {
+    background-color: #3b2a50; /* Lavanda oscuro */
+    border-radius: 5px;
+  }
+
+  /* Estilo para los enlaces de navegación */
+  .btn-nav {
+    color: #3b2a50; /* Lavanda oscuro */
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s;
+    margin: 0 10px;
+  }
+
+  .btn-nav:hover {
+    color: #f7c1d9; /* Rosa pastel */
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+  }
+
+  /* Estilo del dropdown y los elementos de la lista */
+  .dropdown-menu {
+    background-color: #d1c8e0; /* Lavanda claro */
+    border-radius: 8px;
+    border: none;
+  }
+
+  .dropdown-item {
+    color: #3b2a50; /* Lavanda oscuro */
+    transition: color 0.3s, background-color 0.3s;
+  }
+
+  .dropdown-item:hover {
+    color: #f7c1d9; /* Rosa pastel */
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  /* Estilo para el botón de cerrar sesión */
+  .btn-danger {
+    background-color: #ff6f61; /* Coral suave */
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+  }
+
+  .btn-danger:hover {
+    background-color: #e95a4f; /* Coral oscuro */
+  }

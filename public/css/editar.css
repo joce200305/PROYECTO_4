@@ -1,0 +1,47 @@
+/* archivo.css */
+
+body {
+    background-color: #ffe4e6; /* Fondo en un tono rosa claro */
+    font-family: Arial, sans-serif;
+}
+
+.fondo {
+    background-color: #fff0f3; /* Fondo del formulario */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+h3 {
+    color: #cc007f; /* Título en un tono rosa más fuerte */
+    text-align: center;
+    font-size: 24px;
+}
+
+.form-floating label {
+    color: #cc007f; /* Color del texto de los labels */
+}
+
+.form-control {
+    background-color: #ffdee6; /* Fondo de los campos de texto */
+    border-color: #cc007f;
+    color: #5e1b43; /* Color del texto en los inputs */
+}
+
+.form-control:focus {
+    border-color: #cc007f;
+    box-shadow: 0 0 5px rgba(204, 0, 127, 0.5);
+}
+
+.btn-primary {
+    background-color: #cc007f;
+    border-color: #cc007f;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #a30063;
+    border-color: #a30063;
+}
